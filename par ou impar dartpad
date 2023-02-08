@@ -1,0 +1,14 @@
+void main(){
+  
+ var jogador1 = 2;
+ var jogador2 = 1;
+  
+ var total = jogador1 + jogador2;
+  
+  
+ if(total == 2){
+   print('jogador1 ganhou');
+ } else{
+   print('jogador2 ganhou');
+ }
+}

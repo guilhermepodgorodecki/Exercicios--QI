@@ -12,3 +12,29 @@ void main(){
    print('jogador2 ganhou');
  }
 }
+
+
+
+
+
+
+
+______________________________________________
+
+
+void main(){
+  
+ var jogador1 = "par e 2";
+ var jogador2 = "impar e 2";
+ 
+  
+ var total = jogador1 + jogador2;
+ var fds = "par";
+ var vtnc = "impar";
+  
+ if(fds == "impar"){
+   print('jogador1 ganhou');
+ } else{
+   print('jogador2 ganhou');
+ }
+}

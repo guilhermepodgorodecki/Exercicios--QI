@@ -1,11 +1,11 @@
 void main(){
-  var a = 2;
+  var a = 3;
   var b = 3;
   var c = 2; 
   var d = 6;
   
   
-   if(b > c && d > a && c + d > a + b && c & d > 0){
+   if(b > c && d > a && c + d > a + b && c & d > 0 && a %2==0){
      print('valores aceitos');
    }else{
      print('valores não aceitos');

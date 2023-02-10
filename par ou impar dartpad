@@ -1,40 +1,15 @@
 void main(){
   
- var jogador1 = 2;
- var jogador2 = 1;
-  
+ var jogador1 =  2;
+ var jogador2 =  2;
+ var escolhe1 = "par";
+ var escolhe2 = "impar";
  var total = jogador1 + jogador2;
-  
-  
- if(total == 2){
-   print('jogador1 ganhou');
- } else{
-   print('jogador2 ganhou');
- }
-}
-
-
-
-
-
-
-
-______________________________________________
-
-
-void main(){
-  
- var jogador1 = "par e 2";
- var jogador2 = "impar e 2";
  
   
- var total = jogador1 + jogador2;
- var fds = "par";
- var vtnc = "impar";
-  
- if(fds == "impar"){
-   print('jogador1 ganhou');
+ if(total %2==0){
+   print('jogador1 ganhou $escolhe1');
  } else{
-   print('jogador2 ganhou');
+   print('jogador2 ganhou $escolhe2');
  }
 }

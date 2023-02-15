@@ -4,6 +4,12 @@ void main() {
   print('Digite um número entre 1 e 10');
   int numero = int.parse(stdin.readLineSync()!);
 
+  while (numero < 1 || numero > 10) {
+    print('Número inválido');
+    print('Digite o novo número');
+    numero = int.parse(stdin.readLineSync()!);
+  }
+
   tabuada(numero);
 }
 
@@ -13,3 +19,4 @@ void tabuada(int numero) {
     print('$numero * $i = $tabuada');
   }
 }
+
